@@ -1,0 +1,13 @@
+footer {
+    background-color: darkgray;
+}
+footer img {
+    width: 20%;
+    border-radius: 50%;
+    border: 15px solid rgb(104, 104, 104);
+    margin: 5%;
+    margin-left: 5%;
+}
+body {
+    background-color: darkgray;
+}
