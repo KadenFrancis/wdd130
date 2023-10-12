@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Varela+Round&family=Young+Serif&display=swap');
+
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,6 +9,7 @@ nav a {
     text-align: center;
     text-decoration: none;
     color: white;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -21,16 +25,26 @@ main section {
 }
 body {
     background-color:floralwhite;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
 }
 header {
     background-color: tan;
 }
 nav a:hover {
     background-color:palegoldenrod;
+    padding: 35px;
 }
 .book, .join {
-    background-color: palegoldenrod;
+    background-color: darkgoldenrod;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color:palegoldenrod;
@@ -40,9 +54,12 @@ nav a:hover {
 }
 .msg {
     background-color: tan;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color: tan;
+    padding: 25px 50px;
 }
 footer a {
     text-decoration: none;
@@ -51,9 +68,22 @@ footer a {
 footer p a:hover {
     text-decoration: underline;
 }
-
-
-
+footer .social img{
+    padding-top: 15px;
+    margin-top: 200px;
+}
+.home-title {
+    font-family: 'Autour One', 'Young Serif', 'Varela Round';
+    font-size: 2em;
+    margin-top: 10px;
+}
+.msg h2 {
+    font-family: 'Autour One', 'Young Serif', 'Varela Round';
+}
+.msp p {
+    font-size: .8em;
+    padding-bottom: 15px;
+}
 #hero-img {
     width: 100%;
 }
@@ -62,4 +92,19 @@ footer p a:hover {
 }
 .icon {
     width: 80px;
+}
+#logo_link {
+    padding-top: 5px;
+}
+.icon {
+    padding-top: 10px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid black;
+}
+main section img {
+    box-sizing: border-box;
 }
