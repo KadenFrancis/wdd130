@@ -29,44 +29,85 @@ nav a:hover {
     background-color: navy;
     padding: 35px;
 }
-
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+}
 
 
 h1 {
     text-align: center;
     grid-column: 4/6;
+    justify-items: center;
+    font-family: 'Autour One', 'Young Serif', 'Varela Round';
 }
 .riversgrid {
     display: grid;
-    grid-template-columns: 120px 160px 160px 160px 160px 160px 160px 160px 160px 120px;
+    grid-template-columns: 120px 160px 160px 160px 160px 160px 160px 160px 160px 160px;
 }
-.paragraph {
+#paragraph {
     background-color: tan;
     padding: 35px;  
     width: 320px;
     box-shadow: 5px 5px 10px #6f7364;
     grid-column: 2/5;
+    grid-row: 2/3;
     margin-bottom: 100px;
+    justify-content: center;
+    z-index: 1;
 }
-.paragraph2 {
+#paragraph2 {
     background-color: tan;
     padding: 35px;  
     width: 320px;
     box-shadow: 5px 5px 10px #6f7364;
     grid-column: 6/9;
+    grid-row: 4/5;
     margin-bottom: 100px;
+    justify-content: center;
+    z-index: 1;
+}
+#paragraph3 {
+    background-color: tan;
+    padding: 35px;  
+    width: 320px;
+    box-shadow: 5px 5px 10px #6f7364;
+    grid-column: 2/5;
+    grid-row: 5/6;
+    margin-bottom: 100px;
+    justify-content: center;
+    z-index: 1;
 }
 p {
     font-family: 'Varela Round';
 }
-.mainpic img{
-    width: 640px;
-    grid-column: 7/9;
+.mainpic1 img {
+    width: 320px;
+    grid-column: 6/9;
+    grid-row: 2/3;
     grid-gap: 20px;
+    justify-content: center;
+    z-index: 0;
 }
-
+.mainpic2 img {
+    width: 320px;
+    grid-column: 2/5;
+    grid-row: 4/5;
+    grid-gap: 20px;
+    justify-content: center;
+    z-index: 0;
+}
+.mainpic3 img {
+    width: 320px;
+    grid-column: 6/9;
+    grid-row: 5/6;
+    grid-gap: 20px;
+    justify-content: center;
+    z-index: 0;
+}
 body {
     background-color: floralwhite;
+    margin: 0;
 }
 
 
