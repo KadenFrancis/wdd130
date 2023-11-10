@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Varela+Round&family=Young+Serif&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+.logo {
+    width: 80px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: skyblue;
+    font-family: 'Autour One', 'Young Serif', 'Varela Round';
+    margin: 0 auto;
+}
+nav a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 35px;
+}
+nav a:hover {
+    background-color: navy;
+    padding: 35px;
+}
+
+
+
+h1 {
+    text-align: center;
+    grid-column: 4/6;
+}
+.riversgrid {
+    display: grid;
+    grid-template-columns: 120px 160px 160px 160px 160px 160px 160px 160px 160px 120px;
+}
+.paragraph {
+    background-color: tan;
+    padding: 35px;  
+    width: 320px;
+    box-shadow: 5px 5px 10px #6f7364;
+    grid-column: 2/5;
+    margin-bottom: 100px;
+}
+.paragraph2 {
+    background-color: tan;
+    padding: 35px;  
+    width: 320px;
+    box-shadow: 5px 5px 10px #6f7364;
+    grid-column: 6/9;
+    margin-bottom: 100px;
+}
+p {
+    font-family: 'Varela Round';
+}
+.mainpic img{
+    width: 640px;
+    grid-column: 7/9;
+    grid-gap: 20px;
+}
+
+body {
+    background-color: floralwhite;
+}
+
+
+footer {
+    background-color: tan;
+    padding: 25px 50px;
+    margin-top: 200px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Autour One', 'Young Serif', 'Varela Round';
+}
+footer p {
+    color: white;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
+footer p a:hover {
+    text-decoration: underline;
+}
+footer .social img{
+    padding-top: 15px;
+    margin-top: 15px;
+}
